@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 2.6)
 project(TemplateCode)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-include_directories("${PROJECT_SOURCE_DIR}/include")
+include_directories("${PROJECT_SOURCE_DIR}/src/include")
 file(GLOB src
     "src/*.cc"
     )
